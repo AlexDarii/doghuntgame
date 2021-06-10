@@ -1,9 +1,9 @@
-let square = document.querySelector(".square");
+let duck = document.querySelector("#duck");
 let moveBy = 10;
 let score = 0;
 
-document.querySelector(".square").onclick = function () {
-  document.querySelector(".square").style.display = "none";
+document.querySelector("#duck").onclick = function () {
+  document.querySelector("#duck").style.display = "none";
   score++;
   
   let scoreh1= document.querySelector("h1");
@@ -14,24 +14,24 @@ document.querySelector(".square").onclick = function () {
                
 
 window.addEventListener("load", () => {
-  square.style.position = "absolute";
-  square.style.left = 0;
-  square.style.top = 0;
+  duck.style.position = "absolute";
+  duck.style.left = 0;
+  duck.style.top = 0;
 });
 
 window.addEventListener("keyup", (e) => {
   switch (e.key) {
     case "ArrowLeft":
-      square.style.left = parseInt(square.style.left) - moveBy + "px";
+      duck.style.left = parseInt(duck.style.left) - moveBy + "px";
       break;
     case "ArrowRight":
-      square.style.left = parseInt(square.style.left) + moveBy + "px";
+      duck.style.left = parseInt(duck.style.left) + moveBy + "px";
       break;
     case "ArrowUp":
-      square.style.top = parseInt(square.style.top) - moveBy + "px";
+      duck.style.top = parseInt(duck.style.top) - moveBy + "px";
       break;
     case "ArrowDown":
-      square.style.top = parseInt(square.style.top) + moveBy + "px";
+      duck.style.top = parseInt(duck.style.top) + moveBy + "px";
       break;
   }
 });
