@@ -4,22 +4,26 @@
     padding: 0;
 }
 
-.crosshair {
-    cursor: crosshair;
-}
+  #playground {
+            width: 800px;
+            height: 800px;
+            margin: 50px auto;
+            border: 1px dashed black;
+            border-radius: 10px;
+            /*Because duck is using position absolute*/
+            position: relative;
+  }
 
-.cursorChange:hover {
-    cursor: pointer;
-    color: green;
-}
+
 .square {
     height: 150px;
     width: 150px;
     background-image: url(../images/duck1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10%;
-    margin-left: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
 
   }
 
@@ -29,3 +33,4 @@
      
  }
 
+ 
