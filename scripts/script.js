@@ -1,12 +1,17 @@
 let square = document.querySelector(".square");
 let moveBy = 10;
 let score = 0;
+
 document.querySelector(".square").onclick = function () {
   document.querySelector(".square").style.display = "none";
   score++;
-  score = document.querySelector("score");
-  score.innerHTML = score;
+  
+  let scoreh1= document.querySelector("h1");
+  scoreh1.innerHTML = score;
 };
+
+
+               
 
 window.addEventListener("load", () => {
   square.style.position = "absolute";
