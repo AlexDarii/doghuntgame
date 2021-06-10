@@ -11,13 +11,12 @@ body{
 }
 
   #playground {
-            width: 800px;
-            height: 800px;
-            margin: 50px auto;
+            height: 100vh;
             border: 1px dashed black;
             border-radius: 10px;
             /*Because duck is using position absolute*/
             position: relative;
+            overflow: hidden;
   }
 
 

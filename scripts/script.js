@@ -1,5 +1,5 @@
 let duck = document.querySelector("#duck");
-let moveBy = 10;
+let moveBy = 100;
 let score = 0;
 
 document.querySelector("#duck").onclick = function () {
