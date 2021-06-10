@@ -5,13 +5,9 @@ let score = 0;
 document.querySelector("#duck").onclick = function () {
   document.querySelector("#duck").style.display = "none";
   score++;
-  
-  let scoreh1= document.querySelector("h1");
+  let scoreh1 = document.querySelector("h1");
   scoreh1.innerHTML = score;
 };
-
-
-               
 
 window.addEventListener("load", () => {
   duck.style.position = "absolute";
