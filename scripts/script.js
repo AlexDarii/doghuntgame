@@ -5,13 +5,9 @@ let score = 0;
 document.querySelector(".square").onclick = function () {
   document.querySelector(".square").style.display = "none";
   score++;
-  
-  let scoreh1= document.querySelector("h1");
+  let scoreh1 = document.querySelector("h1");
   scoreh1.innerHTML = score;
 };
-
-
-               
 
 window.addEventListener("load", () => {
   square.style.position = "absolute";
