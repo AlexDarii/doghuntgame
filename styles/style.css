@@ -11,3 +11,11 @@
     margin-left: 10%;
   }
 
+  body{
+      background-image: url(../images/duck-hunt-background.png);
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 100vh;
+  }
