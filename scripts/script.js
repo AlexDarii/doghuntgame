@@ -1,6 +1,10 @@
 let square = document.querySelector(".square");
 let moveBy = 10;
 
+document.getElementById("square").onclick=function(){
+    document.getElementById("square").style.display="none";
+}
+
 window.addEventListener('load', () => {
     square.style.position = 'absolute';
     square.style.left = 0;
