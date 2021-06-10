@@ -4,21 +4,21 @@
     padding: 0;
 }
 .square {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/duck1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 10%;
     margin-left: 10%;
   }
 
   section{
-      background-image: url(../images/background.png);
+      background-image: url(../images/duck-stage.png);
       background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  height: 1000px;
-  width: 1000px;
-  margin: auto;
-  border: 5px solid red;
-  }
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 969px;
+      width: 1920px;
+      
+    }
