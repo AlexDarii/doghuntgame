@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
-h2 {
-    color: aquamarine;
-}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
